@@ -1,0 +1,109 @@
+body {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+/* Custom container */
+.container-narrow {
+  max-width: 700px;
+}
+
+.logo {
+  margin: 0 auto;
+  height: 50px;
+  width: 50px;
+  margin-right: 12px;
+  display: inline;
+  float: left;
+}
+
+.players {
+  list-style-type: none;
+
+  li {
+    img {
+      height: 50px;
+      width: 50px;
+      margin-left: 12px;
+    }
+  }
+  
+}
+
+/* property card - 240h x 215w */
+.small-card {
+  margin-bottom: 10px;
+  border: solid 1px #333;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  min-height: 100px;
+
+  h4{
+    margin-left: 4px;
+  }
+}
+
+.small-property-card {
+  min-height: 10px;
+  padding: 9px;
+  margin-bottom: 10px;
+  background-color: #f5f5f5;
+  border: 1px solid #e3e3e3;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.05);
+  -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.05);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,0.05);
+}
+
+.property-details {
+  border: solid 1px #333;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+
+  h3, p {
+    margin-left: 4px;
+  }
+}
+
+.property-title {
+}
+
+.utilities {
+  background-color: #fff;
+}
+
+.railroads {
+  background-color: #000
+}
+
+.light_blue {
+  background-color: #6fbacb
+}
+
+.pink {
+  background-color: #d32f82
+}
+
+.orange {
+  background-color: #f9863c
+}
+
+.red {
+  background-color: #d60006
+}
+
+.yellow{
+  background-color: #edd02d
+}
+
+.green {
+  background-color: #1b7d21
+}
+
+.dark_blue {
+  background-color: #183a5f
+}
